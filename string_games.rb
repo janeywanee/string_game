@@ -10,7 +10,7 @@ def level_without_reverse
   p = "Anna"
   check_word = []
   p.chars.each do |letter|
-    chack_word.unshif(letter)
+    chack_word.unshift(letter)
   end
   if p == check_word.join
     true
